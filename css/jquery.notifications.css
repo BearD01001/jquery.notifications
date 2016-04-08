@@ -1,0 +1,68 @@
+/* 处理消息框 */
+.handle_msg_box {
+    display: inline-block;
+    position: absolute;
+    top: 100px;
+    right: 20px;
+}
+
+.handle_msg {
+    text-align: left;
+    overflow: hidden;
+    color: #FFF;
+    background: #000;
+    opacity: 0;
+    z-index: 20;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    position: relative;
+    right: -150%;
+    -webkit-transition: none;
+    -moz-transition: none;
+    -ms-transition: none;
+    -o-transition: none;
+    transition: none;
+}
+
+.handle_msg .close {
+    cursor: pointer;
+    font-size: 16px;
+    position: absolute;
+    top: 0;
+    right: 6px;
+}
+
+.handle_msg .close:hover {
+    color: #FFCC00;
+}
+
+.handle_msg .close:active {
+    color: #FFF;
+}
+
+.handle_msg .close + div {
+    padding-right: 20px;
+}
+
+.handle_msg .m_title {
+    font-weight: bold;
+}
+
+.handle_msg .m_body {
+    display: inline;
+}
+/* 全局提示框 */
+.global_msg {
+    display: none;
+    width: 30%;
+    margin: 0 auto;
+    background: #000;
+    color: #FFF;
+    font-size: 30px;
+    line-height: 80px;
+    opacity: .6;
+    position: absolute;
+    top: 0;
+    left: 35%;
+    -webkit-transition: none;-moz-transition: none;-ms-transition: none;-o-transition: none;transition: none;
+}
