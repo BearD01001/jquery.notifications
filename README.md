@@ -4,7 +4,8 @@
 
 全局提示框：
 $.globalMsg([$msg = '', url = '', delay = 1500])
-在页面顶部居中slide down一个消息提示栏，显示完后自动缩回
+在页面顶部居中slide down一个消息提示栏，显示完后自动缩回，
+该提示框会检测是否当前文档是否为 _top ，若不是会自动向上检测直到 _top 。
 
 处理进度提示框：
 $.handleMsg([$title = '', $msg = '', $url = '', delay = 1500])
