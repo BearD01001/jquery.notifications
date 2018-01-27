@@ -1,6 +1,6 @@
 # jquery.notifications
 扁平化风格的提示框，灵感来源于WP
-提取自开发项目，暂未测试
+提取自开发项目
 
 全局提示框：
 $.globalMsg([$msg = '', url = '', delay = 1500])
